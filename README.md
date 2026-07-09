@@ -31,7 +31,7 @@ assigned team color
 * **Computer Vision:** OpenCV, YOLOv5
 * **Data Processing:** NumPy, Pandas, BeautifulSoup, Cheerio, Request-Promise
 
-## 📊 Hardware & Performance Benchmarks
+## Hardware & Performance Benchmarks
 To give an idea of inference speed, this model was developed and tested on the following local hardware setup:
 * **CPU:** Intel Core i5-11400
 * **GPU:** NVIDIA GeForce RTX 3050 (4GB Laptop GPU)
