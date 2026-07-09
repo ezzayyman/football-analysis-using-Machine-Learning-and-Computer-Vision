@@ -11,8 +11,14 @@
 
 ---
 
-##  Overview
+##  Computer Vision and Football Clip Analysis
 This project applies Computer Vision techniques to standard football broadcast footage. It is built to automatically detect players, track their positions across frames, and displays stats such as Pace, Distance, Possession, etc.
+
+* Using Yolov5, the model tracks players, assigns them bounding boxes, assigns team to player using KMeans, and
+estimates speed, distance traveled, and possession.
+* The platform then displays an annotated video of every player
+on the field with their speed, distance and possession printed over them, alongside with their BBox with the
+assigned team color
 
 <div align="center">
   
@@ -35,4 +41,7 @@ To give an idea of inference speed, this model was developed and tested on the f
 Users can search players and get the most 5 similar players in terms of stats.
 * Stats are webscrapped from FBRef using BeautifulSoup/Cheerio and RequestPromise
 * Similarity algorithm is made by using Cosine Similarity, Elbow Method, and KMeans Clustering
+* Screenshot of the Streamlit app:
 
+ 
+![Comparison of the model output](assets/comparison.png)
