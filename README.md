@@ -35,6 +35,4 @@ To give an idea of inference speed, this model was developed and tested on the f
 Users can search players and get the most 5 similar players in terms of stats.
 * Stats are webscrapped from FBRef using BeautifulSoup/Cheerio and RequestPromise
 * Similarity algorithm is made by using Cosine Similarity, Elbow Method, and KMeans Clustering
-1. Clone this repository to your local machine:
-```bash
-git clone [https://github.com/ezzayyman/football-analysis-using-Machine-Learning-and-Computer-Vision.git](https://github.com/ezzayyman/football-analysis-using-Machine-Learning-and-Computer-Vision.git)
+
